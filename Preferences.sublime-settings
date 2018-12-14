@@ -1,0 +1,40 @@
+{
+	"auto_complete": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "abcdefghijklmnopqrstuvwxyz< :.",
+			"selector": "text.wxml"
+		}
+	],
+	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"default_encoding": "UTF-8",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"fold_buttons": true,
+	"font_face": "consolas",
+	"font_options":
+	[
+		"gdi"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"BracketHighlighter",
+		"Minifier",
+		"ReactJS",
+		"SublimeLinter-jsxhint",
+		"SublimeOnSaveBuild"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"match_tags": true,
+	"mouse_wheel_switches_tabs": true,
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"word_wrap": "auto"
+}

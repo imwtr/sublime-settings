@@ -1,0 +1,53 @@
+// SublimeLinter Settings - User
+{
+    "debug": true,
+    // "delay": 0.2,
+    "lint_mode": "manual",
+    // "syntax_map": {
+    //     "html (django)": "html",
+    //     "html (rails)": "html",
+    //     "html 5": "html",
+    //     "css": "css",
+    //     "javascript (babel)": "javascript",
+    //     "magicpython": "python",
+    //     "php": "html",
+    //     "python django": "python",
+    //     "pythonimproved": "python"
+    // },
+    "styles": [
+        {
+            "scope": "region.yellowish markup.warning.sublime_linter",
+            "types": ["warning"]
+        },
+        {
+            "scope": "region.redish markup.error.sublime_linter",
+            "types": ["error"]
+        },
+        {
+            "priority": 1,
+            "icon": "dot",
+            "mark_style": "outline"
+        }
+    ],
+    "linters": {
+        "eslint": {
+            // 让eslint能够识别html页面中嵌入的JS
+            "selector": "source.js | text.html.basic"
+        },
+        // 下面三个sublimelinter默认都支持，为防止检查干扰，需要禁用它们
+        "scsslint": {
+            "disable": true
+        },
+        "csslint": {
+            // "disable": true
+        },
+        "htmllint": {
+            "disable": true
+        },
+        "stylelint": {
+            // 似乎Sublime的stylelint需要手动设置到全局路径
+            "executable": "C:\\Users\\e470\\AppData\\Roaming\\npm\\stylelint.cmd"
+            // "executable": "/usr/local/bin/stylelint"
+        }
+    }
+}
