@@ -1,0 +1,13 @@
+{
+
+    /* "cmd": ["sass", "--update", "${file_base_name}.scss:./css/${file_base_name}.css", "--style", "expanded"], */
+    "cmd": ["sass", "--update", "$file:${file_path}/${file_base_name}.wxss", "--style", "compressed"],
+    "selector": "source.sass, source.scss",
+    "line_regex": "Line ([0-9]+):",
+
+    "windows":
+    {
+        "shell": "true"
+    }
+
+}

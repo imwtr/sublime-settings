@@ -1,0 +1,25 @@
+{
+
+    "cmd": ["babel", "${file_base_name}.js", "-o", "./${file_base_name}-compiled.js", "-s"],
+    "selector": "source.js",
+    "line_regex": "Line ([0-9]+):",
+
+    "windows":
+    {
+        "shell": "true"
+    }
+    ,
+
+    "variants": [
+    	{
+    		"name": "one",
+    		"cmd": ["echo", "one"],
+    		"shell": true
+    	},
+    	{
+    		"name": "two",
+    		"cmd": ["echo", "two"]
+    	}
+    ]
+
+}
